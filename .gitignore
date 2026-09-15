@@ -1,0 +1,28 @@
+# Compiled C/C++
+*.o
+*.obj
+*.out
+a.out
+*.exe
+*.gch
+*.pch
+
+# Compiled Java
+*.class
+bin/
+out/
+target/
+
+# Local test I/O (uncomment if you use these for local runs)
+# input.txt
+# output.txt
+
+# Editor / IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
