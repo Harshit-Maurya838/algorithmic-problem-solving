@@ -1,16 +1,33 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-void solve(){
-
+void solve() {
+    int n;
+    cin >> n;
+    int oddCount = 0;
+    
+    for(int i=0; i<n; i++){
+        int x;
+        cin >> x;
+        if(x % 2 != 0){
+            oddCount++;
+        }
+    }
+    if(oddCount % 2 == 0){
+        cout << "YES\n";
+    }else{
+        cout << "NO\n";
+    }
 }
 
-int main(){
+int main() {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
-    #ifndef ONLINE_
-    #endif
-
+    
+    int t;
+    cin >> t;
+    while (t--) {
+        solve();
+    }
     return 0;
 }
